@@ -1,6 +1,6 @@
 // set up array
 
-var buttonColours = ["green", "blue", "pinkcoral", "yellow"];
+var buttonColours = ["green", "blue", "pinkcoral", "cream"];
 var gamePattern = [];
 var userClickedPattern = [];
 
@@ -88,7 +88,7 @@ console.log("true");
 if (userClickedPattern.length === gamePattern.length){
   setTimeout(function() {
     nextSequence();
-  }, 1000);
+  }, 300);
 }
 
 
@@ -111,8 +111,8 @@ function makeSound(id) {
       break;
 
     case "cream":
-      var yellow = new Audio('sounds/cream.mp3');
-      yellow.play();
+      var cream = new Audio('sounds/cream.mp3');
+      cream.play();
       break;
 
 
