@@ -1,6 +1,6 @@
 // set up array
 
-var buttonColours = ["red", "blue", "green", "yellow"];
+var buttonColours = ["green", "blue", "pinkcoral", "yellow"];
 var gamePattern = [];
 var userClickedPattern = [];
 
@@ -97,21 +97,21 @@ if (userClickedPattern.length === gamePattern.length){
 
 function makeSound(id) {
   switch (id) {
-    case "red":
-      var red = new Audio('sounds/red.mp3');
-      red.play();
+    case "green":
+      var green = new Audio('sounds/green.mp3');
+      green.play();
       break;
     case "blue":
       var blue = new Audio('sounds/blue.mp3');
       blue.play();
       break;
-    case "green":
-      var green = new Audio('sounds/green.mp3');
-      green.play();
+    case "pinkcoral":
+      var pinkcoral = new Audio('sounds/pinkcoral.mp3');
+      pinkcoral.play();
       break;
 
-    case "yellow":
-      var yellow = new Audio('sounds/yellow.mp3');
+    case "cream":
+      var yellow = new Audio('sounds/cream.mp3');
       yellow.play();
       break;
 
